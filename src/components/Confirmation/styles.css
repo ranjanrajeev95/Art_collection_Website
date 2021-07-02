@@ -1,0 +1,28 @@
+.confirmation {
+    height: 55vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.confirmation h2 {
+    margin-top: 0;
+}
+
+.confirmation p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.confirmation .button {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .confirmation {
+        padding: 20px;
+    }
+  }

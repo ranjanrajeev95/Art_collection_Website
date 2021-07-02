@@ -1,0 +1,21 @@
+
+.footer ul, .footer li {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footer li {
+    margin: 10px;
+}
+
+.footer p {
+    color: var(--color-blue);
+    font-size: 12px;
+}
+
+.footer hr {
+    border-color: var(--color-blue);
+    border-width: 0.5px;
+}

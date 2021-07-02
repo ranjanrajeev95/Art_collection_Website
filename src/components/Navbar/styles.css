@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Redressed&display=swap');
+
+.navbar ul, .navbar li {
+    list-style-type: none;
+    display: flex;
+    padding: 20px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-family: 'Redressed';
+    font-size: 36px;
+    color: var(--color-blue);
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    color: var(--color-hover)
+}
+
+svg {
+    color: var(--color-blue)
+}
+
+svg:hover {
+    color: var(--color-hover)
+}

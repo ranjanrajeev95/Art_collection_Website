@@ -1,0 +1,40 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.cart p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+}
+
+.cartItem img {
+  /* width: 100px; */
+  height: 120px;
+  margin-right: 20px;
+}
+
+.cartItem .details {
+  flex-grow: 3;
+  text-align: left;
+}
+
+.cartItem .price {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.cartItem .title {
+  font-size: 28px;
+  font-weight: 200;
+  margin: 0;
+}
